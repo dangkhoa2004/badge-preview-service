@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>dangkh0a - Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: "class" };</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" href="/logo.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/logo.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="/logo.png" sizes="180x180">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="dangkh0a - Gallery">
+  <meta property="og:description" content="Bộ sưu tập hình ảnh ấn tượng, trình diễn với giao diện tối/sáng.">
+  <meta property="og:image" content="https://yourdomain.com/logo.png">
+  <meta property="og:url" content="https://yourdomain.com/gallery">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="dangkh0a - Gallery">
+  <meta name="twitter:description" content="Bộ sưu tập hình ảnh ấn tượng, trình diễn với giao diện tối/sáng.">
+  <meta name="twitter:image" content="https://yourdomain.com/logo.png">
+</head>
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
+  <div class="flex h-screen">
+    <aside class="w-72 bg-white dark:bg-gray-800 border-r dark:border-gray-700 overflow-y-auto">
+      <div
+        class="sticky top-0 flex items-center justify-between p-4 bg-white dark:bg-gray-800 border-b dark:border-gray-700 z-10">
+        <h2 class="text-xl font-bold flex items-center gap-2">
+          <i class="fas fa-boxes text-blue-500"></i> Badge
+        </h2>
+        <button id="toggleTheme" class="text-lg p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition">
+          <i class="fas fa-sun icon-sun hidden"></i>
+          <i class="fas fa-moon icon-moon"></i>
+        </button>
+      </div>
+      <div class="p-2">
+        <div class="relative">
+          <i
+            class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500"></i>
+          <input type="text" id="search" placeholder="Search badges..."
+            class="w-full pl-10 pr-3 py-2 border-b outline-none bg-white dark:bg-gray-800 dark:border-gray-700 placeholder-gray-500" />
+        </div>
+      </div>
+      <ul id="component-list" class="p-2 space-y-2"></ul>
+    </aside>
+    <main class="flex-1 p-6 overflow-y-auto">
+      <h1 id="component-title" class="text-2xl font-bold mb-4 flex items-center gap-2">
+        <i class="fas fa-puzzle-piece text-green-500"></i>
+        Select a badge
+      </h1>
+      <div id="preview"
+        class="p-6 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-2xl shadow-lg mb-4 relative group transition-transform hover:scale-[1.02] cursor-pointer">
+        <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
+          <i class="fas fa-code text-xl text-gray-400"></i>
+        </div>
+      </div>
+      <div id="code-section" class="space-y-6 hidden">
+        <div>
+          <h3 class="font-semibold flex items-center gap-2">
+            <i class="fab fa-html5 text-orange-500"></i> HTML
+          </h3>
+          <textarea id="html-code"
+            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+        </div>
+        <div id="css-block" class="hidden">
+          <h3 class="font-semibold flex items-center gap-2">
+            <i class="fab fa-css3-alt text-blue-500"></i> CSS
+          </h3>
+          <textarea id="css-code"
+            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+        </div>
+        <div id="js-block" class="hidden">
+          <h3 class="font-semibold flex items-center gap-2">
+            <i class="fab fa-js text-yellow-400"></i> JavaScript
+          </h3>
+          <textarea id="js-code"
+            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+        </div>
+        <button onclick="resetEdits()" class="px-4 py-2 bg-red-600 text-white rounded-xl hover:bg-red-700 transition">
+          <i class="fas fa-undo-alt mr-2"></i> Reset to Default
+        </button>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    async function fetchComponents() {
+      const res = await fetch("components.json");
+      return res.json();
+    }
+
+    let components = [];
+    let currentComponent = null;
+    let currentOriginal = {};
+
+    const listEl = document.getElementById("component-list");
+    const previewEl = document.getElementById("preview");
+    const htmlCodeEl = document.getElementById("html-code");
+    const cssCodeEl = document.getElementById("css-code");
+    const jsCodeEl = document.getElementById("js-code");
+    const codeSectionEl = document.getElementById("code-section");
+    const cssBlockEl = document.getElementById("css-block");
+    const jsBlockEl = document.getElementById("js-block");
+    const titleEl = document.getElementById("component-title");
+    const toggleBtn = document.getElementById("toggleTheme");
+    const sunIcon = toggleBtn.querySelector(".icon-sun");
+    const moonIcon = toggleBtn.querySelector(".icon-moon");
+
+    function createComponentListItem(comp) {
+      const li = document.createElement("li");
+      li.className =
+        "flex items-center gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 px-4 py-2 rounded-xl transition-transform hover:translate-x-1";
+      li.innerHTML = `
+          <img src="${comp.thumbnail || "https://via.placeholder.com/120x40?text=No+Image"
+        }" alt="${comp.name}" class="w-20 h-auto object-contain rounded" />
+          <span class="text-sm font-medium truncate flex-1">${comp.name}</span>
+          <i class="fas fa-chevron-right text-gray-400"></i>
+        `;
+      li.onclick = () => renderComponent(comp);
+      return li;
+    }
+
+    function renderComponent(comp) {
+      currentComponent = comp.id;
+      currentOriginal = {
+        html: comp.html,
+        css: comp.css || "",
+        js: comp.js || "",
+      };
+
+      titleEl.innerHTML = `<i class='fas fa-puzzle-piece text-green-500'></i> ${comp.name}`;
+      htmlCodeEl.value = comp.html;
+      cssCodeEl.value = comp.css || "";
+      jsCodeEl.value = comp.js || "";
+
+      cssBlockEl.classList.toggle("hidden", !comp.css);
+      jsBlockEl.classList.toggle("hidden", !comp.js);
+
+      updatePreview();
+      codeSectionEl.classList.add("hidden");
+    }
+
+    function updatePreview() {
+      const html = htmlCodeEl.value;
+      const css = cssCodeEl.value;
+      const js = jsCodeEl.value;
+      previewEl.innerHTML = `<style>${css}</style>${html}<script>${js}<\/script>`;
+    }
+
+    function resetEdits() {
+      if (!currentComponent) return;
+      htmlCodeEl.value = currentOriginal.html;
+      cssCodeEl.value = currentOriginal.css;
+      jsCodeEl.value = currentOriginal.js;
+      updatePreview();
+    }
+
+    function renderList(filter = "") {
+      listEl.innerHTML = "";
+      const grouped = groupByCategory(
+        components.filter((c) =>
+          c.name.toLowerCase().includes(filter.toLowerCase())
+        )
+      );
+
+      Object.entries(grouped).forEach(([cat, items]) => {
+        const catTitle = document.createElement("div");
+        catTitle.className = "text-xs text-gray-500 uppercase mt-4 px-4";
+        catTitle.textContent = cat;
+        listEl.appendChild(catTitle);
+
+        items.forEach((comp) =>
+          listEl.appendChild(createComponentListItem(comp))
+        );
+      });
+    }
+
+    function groupByCategory(list) {
+      return list.reduce((acc, item) => {
+        const cat = item.category || "Uncategorized";
+        acc[cat] = acc[cat] || [];
+        acc[cat].push(item);
+        return acc;
+      }, {});
+    }
+
+    document.getElementById("search").addEventListener("input", (e) => {
+      renderList(e.target.value);
+    });
+
+    toggleBtn.addEventListener("click", () => {
+      document.documentElement.classList.toggle("dark");
+      sunIcon.classList.toggle("hidden");
+      moonIcon.classList.toggle("hidden");
+    });
+
+    htmlCodeEl.addEventListener("input", updatePreview);
+    cssCodeEl.addEventListener("input", updatePreview);
+    jsCodeEl.addEventListener("input", updatePreview);
+    previewEl.addEventListener("click", () => {
+      codeSectionEl.classList.remove("hidden");
+    });
+
+    fetchComponents().then((data) => {
+      components = data;
+      renderList();
+    });
+  </script>
+</body>
+
+</html>
