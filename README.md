@@ -12,12 +12,14 @@
 - **Khôi phục mặc định**: Trả mã về trạng thái gốc với nút Reset.
 - **Tìm kiếm**: Lọc badge theo tên trong thời gian thực.
 - **Chuyển giao diện**: Đổi giữa chế độ sáng và tối.
-- **PWA Ready**: Có `manifest.json` cho Progressive Web App.
+- **PWA Ready**: Có `manifest.json` cho trình duyệt Web.
 - **Chia sẻ phong phú**: Thẻ Open Graph và Twitter Card cho preview khi chia sẻ.
 
-## Demo
-
-_\*Thêm link demo nếu có deployment_\*\_
+## Giao diện
+- **Giao diện sáng**
+![LIGHT-MODE](icons/light-mode.png)
+- **Giao diện tối**
+![DARK-MODE](icons/dark-mode.png)
 
 ## Yêu cầu
 

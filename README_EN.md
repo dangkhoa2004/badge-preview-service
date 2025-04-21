@@ -12,12 +12,15 @@ A lightweight web application that lets users **select badges** and **view the H
 - **Reset to Default**: Restore original code with a single click.
 - **Search**: Real-time filtering of badges by name.
 - **Theme Switcher**: Toggle between light and dark modes.
-- **PWA Ready**: Includes `manifest.json` for Progressive Web App capabilities.
+- **PWA Ready**: Includes `manifest.json` for Web Browser capabilities.
 - **Rich Sharing**: Open Graph and Twitter Card tags for enhanced link previews.
 
-## Demo
+## Interface
 
-_\*Add a demo link here if deployed_\*
+- **Light Mode**
+  ![LIGHT-MODE](icons/light-mode.png)
+- **Dark Mode**
+  ![DARK-MODE](icons/dark-mode.png)
 
 ## Requirements
 
