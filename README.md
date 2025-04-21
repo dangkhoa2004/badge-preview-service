@@ -1,6 +1,7 @@
 # dangkh0a - Gallery
 
 [![🌐 Tiếng Việt](https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-red)](./README.md) [![🌐 English](https://img.shields.io/badge/Language-English-blue)](./README_EN.md)
+
 Ứng dụng web nhỏ gọn cho phép người dùng **chọn badge** và **xem mã nguồn** HTML, CSS, JS để tùy biến theo nhu cầu. Xây dựng với HTML, Tailwind CSS, Prism.js và Font Awesome, hỗ trợ giao diện sáng/tối và PWA cơ bản.
 
 ## Tính năng

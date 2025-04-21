@@ -1,6 +1,7 @@
 # dangkh0a - Gallery
 
-[![🌐 Tiếng Việt](https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-red)](./README.md) [![🌐 English](https://img.shields.io/badge/Language-English-blue)](./README_EN.md)  
+[![🌐 Tiếng Việt](https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-red)](./README.md) [![🌐 English](https://img.shields.io/badge/Language-English-blue)](./README_EN.md)
+
 A lightweight web application that lets users **select badges** and **view the HTML, CSS, and JS source code** for easy customization. Built with HTML, Tailwind CSS, Prism.js, and Font Awesome, featuring light/dark modes and basic PWA support.
 
 ## Features
