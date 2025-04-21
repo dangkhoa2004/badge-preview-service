@@ -1,6 +1,1086 @@
 [
   {
     "id": "badge-1",
+    "name": "Scala Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&logo=scala&logoColor=white",
+    "html": "<a href=\"https://www.scala-lang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Scala Badge\" src=\"https://img.shields.io/badge/Scala-DC322F?style=for-the-badge&amp;logo=scala&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-2",
+    "name": "Kotlin Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white",
+    "html": "<a href=\"https://kotlinlang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Kotlin Badge\" src=\"https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&amp;logo=kotlin&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-3",
+    "name": "Swift Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white",
+    "html": "<a href=\"https://swift.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Swift Badge\" src=\"https://img.shields.io/badge/Swift-F05138?style=for-the-badge&amp;logo=swift&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-4",
+    "name": "Objective‑C Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Objective-C-438EFF?style=for-the-badge&logo=objective-c&logoColor=white",
+    "html": "<a href=\"https://developer.apple.com/documentation/objectivec\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Objective‑C Badge\" src=\"https://img.shields.io/badge/Objective-C-438EFF?style=for-the-badge&amp;logo=objective-c&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-5",
+    "name": "PowerShell Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PowerShell-0078D7?style=for-the-badge&logo=powershell&logoColor=white",
+    "html": "<a href=\"https://docs.microsoft.com/powershell/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PowerShell Badge\" src=\"https://img.shields.io/badge/PowerShell-0078D7?style=for-the-badge&amp;logo=powershell&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-6",
+    "name": "Bash Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white",
+    "html": "<a href=\"https://www.gnu.org/software/bash/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Bash Badge\" src=\"https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&amp;logo=gnu-bash&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-7",
+    "name": "Windows Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white",
+    "html": "<a href=\"https://www.microsoft.com/windows/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Windows Badge\" src=\"https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&amp;logo=windows&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-8",
+    "name": "macOS Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white",
+    "html": "<a href=\"https://www.apple.com/macos/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"macOS Badge\" src=\"https://img.shields.io/badge/macOS-000000?style=for-the-badge&amp;logo=apple&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-9",
+    "name": "Android Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white",
+    "html": "<a href=\"https://www.android.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Android Badge\" src=\"https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&amp;logo=android&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-10",
+    "name": "iOS Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white",
+    "html": "<a href=\"https://www.apple.com/ios/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"iOS Badge\" src=\"https://img.shields.io/badge/iOS-000000?style=for-the-badge&amp;logo=ios&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-11",
+    "name": "React Native Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&logo=react&logoColor=white",
+    "html": "<a href=\"https://reactnative.dev/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"React Native Badge\" src=\"https://img.shields.io/badge/React_Native-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-12",
+    "name": "Xamarin Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Xamarin-264BA4?style=for-the-badge&logo=xamarin&logoColor=white",
+    "html": "<a href=\"https://dotnet.microsoft.com/apps/xamarin\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Xamarin Badge\" src=\"https://img.shields.io/badge/Xamarin-264BA4?style=for-the-badge&amp;logo=xamarin&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-13",
+    "name": "Electron Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white",
+    "html": "<a href=\"https://www.electronjs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Electron Badge\" src=\"https://img.shields.io/badge/Electron-47848F?style=for-the-badge&amp;logo=electron&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-14",
+    "name": "Cordova Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Apache_Cordova-EE4337?style=for-the-badge&logo=cordova&logoColor=white",
+    "html": "<a href=\"https://cordova.apache.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Cordova Badge\" src=\"https://img.shields.io/badge/Apache_Cordova-EE4337?style=for-the-badge&amp;logo=cordova&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-15",
+    "name": "Ionic Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white",
+    "html": "<a href=\"https://ionicframework.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Ionic Badge\" src=\"https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&amp;logo=ionic&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-16",
+    "name": "Gatsby Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&logo=gatsby&logoColor=white",
+    "html": "<a href=\"https://www.gatsbyjs.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Gatsby Badge\" src=\"https://img.shields.io/badge/Gatsby-663399?style=for-the-badge&amp;logo=gatsby&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-17",
+    "name": "Jekyll Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&logo=jekyll&logoColor=white",
+    "html": "<a href=\"https://jekyllrb.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Jekyll Badge\" src=\"https://img.shields.io/badge/Jekyll-CC0000?style=for-the-badge&amp;logo=jekyll&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-18",
+    "name": "Hugo Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Hugo-478778?style=for-the-badge&logo=hugo&logoColor=white",
+    "html": "<a href=\"https://gohugo.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Hugo Badge\" src=\"https://img.shields.io/badge/Hugo-478778?style=for-the-badge&amp;logo=hugo&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-19",
+    "name": "Sphinx Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Sphinx-2980B9?style=for-the-badge&logo=sphinx&logoColor=white",
+    "html": "<a href=\"https://www.sphinx-doc.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Sphinx Badge\" src=\"https://img.shields.io/badge/Sphinx-2980B9?style=for-the-badge&amp;logo=sphinx&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-20",
+    "name": "Docusaurus Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Docusaurus-0F68E2?style=for-the-badge&logo=docusaurus&logoColor=white",
+    "html": "<a href=\"https://docusaurus.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Docusaurus Badge\" src=\"https://img.shields.io/badge/Docusaurus-0F68E2?style=for-the-badge&amp;logo=docusaurus&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-21",
+    "name": "MkDocs Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/MkDocs-2D5BE3?style=for-the-badge&logo=mkdocs&logoColor=white",
+    "html": "<a href=\"https://www.mkdocs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"MkDocs Badge\" src=\"https://img.shields.io/badge/MkDocs-2D5BE3?style=for-the-badge&amp;logo=mkdocs&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-22",
+    "name": "Chart.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Chart.js-F7931E?style=for-the-badge&logo=chart.js&logoColor=white",
+    "html": "<a href=\"https://www.chartjs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Chart.js Badge\" src=\"https://img.shields.io/badge/Chart.js-F7931E?style=for-the-badge&amp;logo=chart.js&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-23",
+    "name": "D3.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3.js&logoColor=white",
+    "html": "<a href=\"https://d3js.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"D3.js Badge\" src=\"https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&amp;logo=d3.js&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-24",
+    "name": "Recharts Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Recharts-31A5E4?style=for-the-badge&logo=recharts&logoColor=white",
+    "html": "<a href=\"https://recharts.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Recharts Badge\" src=\"https://img.shields.io/badge/Recharts-31A5E4?style=for-the-badge&amp;logo=recharts&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-25",
+    "name": "Highcharts Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Highcharts-464A51?style=for-the-badge&logo=highcharts&logoColor=white",
+    "html": "<a href=\"https://www.highcharts.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Highcharts Badge\" src=\"https://img.shields.io/badge/Highcharts-464A51?style=for-the-badge&amp;logo=highcharts&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-26",
+    "name": "Tableau Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white",
+    "html": "<a href=\"https://www.tableau.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Tableau Badge\" src=\"https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&amp;logo=tableau&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-27",
+    "name": "Power BI Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=microsoft-power-bi&logoColor=white",
+    "html": "<a href=\"https://powerbi.microsoft.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Power BI Badge\" src=\"https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&amp;logo=microsoft-power-bi&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-28",
+    "name": "Looker Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Looker-7248B6?style=for-the-badge&logo=looker&logoColor=white",
+    "html": "<a href=\"https://looker.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Looker Badge\" src=\"https://img.shields.io/badge/Looker-7248B6?style=for-the-badge&amp;logo=looker&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-29",
+    "name": "Kibana Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=kibana&logoColor=white",
+    "html": "<a href=\"https://www.elastic.co/kibana\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Kibana Badge\" src=\"https://img.shields.io/badge/Kibana-005571?style=for-the-badge&amp;logo=kibana&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-30",
+    "name": "Grafana Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white",
+    "html": "<a href=\"https://grafana.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Grafana Badge\" src=\"https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&amp;logo=grafana&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-31",
+    "name": "Prometheus Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white",
+    "html": "<a href=\"https://prometheus.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Prometheus Badge\" src=\"https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&amp;logo=prometheus&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-32",
+    "name": "Elasticsearch Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white",
+    "html": "<a href=\"https://www.elastic.co/elasticsearch/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Elasticsearch Badge\" src=\"https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&amp;logo=elasticsearch&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-33",
+    "name": "Logstash Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Logstash-005571?style=for-the-badge&logo=logstash&logoColor=white",
+    "html": "<a href=\"https://www.elastic.co/logstash/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Logstash Badge\" src=\"https://img.shields.io/badge/Logstash-005571?style=for-the-badge&amp;logo=logstash&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-34",
+    "name": "Beats Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Beats-005571?style=for-the-badge&logo=elasticbeats&logoColor=white",
+    "html": "<a href=\"https://www.elastic.co/beats/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Beats Badge\" src=\"https://img.shields.io/badge/Beats-005571?style=for-the-badge&amp;logo=elasticbeats&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-35",
+    "name": "Selenium Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white",
+    "html": "<a href=\"https://www.selenium.dev/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Selenium Badge\" src=\"https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&amp;logo=selenium&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-36",
+    "name": "Cypress Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white",
+    "html": "<a href=\"https://www.cypress.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Cypress Badge\" src=\"https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&amp;logo=cypress&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-37",
+    "name": "Puppeteer Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Puppeteer-232B3A?style=for-the-badge&logo=puppeteer&logoColor=white",
+    "html": "<a href=\"https://pptr.dev/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Puppeteer Badge\" src=\"https://img.shields.io/badge/Puppeteer-232B3A?style=for-the-badge&amp;logo=puppeteer&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-38",
+    "name": "Playwright Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Playwright-FFD43B?style=for-the-badge&logo=playwright&logoColor=black",
+    "html": "<a href=\"https://playwright.dev/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Playwright Badge\" src=\"https://img.shields.io/badge/Playwright-FFD43B?style=for-the-badge&amp;logo=playwright&amp;logoColor=black\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-39",
+    "name": "Jest Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white",
+    "html": "<a href=\"https://jestjs.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Jest Badge\" src=\"https://img.shields.io/badge/Jest-C21325?style=for-the-badge&amp;logo=jest&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-40",
+    "name": "VS Code Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white",
+    "html": "<a href=\"https://code.visualstudio.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"VS Code Badge\" src=\"https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&amp;logo=visual-studio-code&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-41",
+    "name": "IntelliJ IDEA Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white",
+    "html": "<a href=\"https://www.jetbrains.com/idea/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"IntelliJ IDEA Badge\" src=\"https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&amp;logo=intellij-idea&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-42",
+    "name": "PyCharm Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&logo=pycharm&logoColor=white",
+    "html": "<a href=\"https://www.jetbrains.com/pycharm/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PyCharm Badge\" src=\"https://img.shields.io/badge/PyCharm-000000?style=for-the-badge&amp;logo=pycharm&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-43",
+    "name": "WebStorm Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=webstorm&logoColor=white",
+    "html": "<a href=\"https://www.jetbrains.com/webstorm/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"WebStorm Badge\" src=\"https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&amp;logo=webstorm&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-44",
+    "name": "PhpStorm Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PhpStorm-000000?style=for-the-badge&logo=phpstorm&logoColor=white",
+    "html": "<a href=\"https://www.jetbrains.com/phpstorm/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PhpStorm Badge\" src=\"https://img.shields.io/badge/PhpStorm-000000?style=for-the-badge&amp;logo=phpstorm&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-45",
+    "name": "RubyMine Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/RubyMine-000000?style=for-the-badge&logo=rubymine&logoColor=white",
+    "html": "<a href=\"https://www.jetbrains.com/ruby/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"RubyMine Badge\" src=\"https://img.shields.io/badge/RubyMine-000000?style=for-the-badge&amp;logo=rubymine&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-46",
+    "name": "Xcode Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&logo=xcode&logoColor=white",
+    "html": "<a href=\"https://www.apple.com/xcode/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Xcode Badge\" src=\"https://img.shields.io/badge/Xcode-007ACC?style=for-the-badge&amp;logo=xcode&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-47",
+    "name": "Eclipse Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white",
+    "html": "<a href=\"https://www.eclipse.org/ide/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Eclipse Badge\" src=\"https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&amp;logo=eclipseide&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-48",
+    "name": "NetBeans Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/NetBeans-009C40?style=for-the-badge&logo=netbeans&logoColor=white",
+    "html": "<a href=\"https://netbeans.apache.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"NetBeans Badge\" src=\"https://img.shields.io/badge/NetBeans-009C40?style=for-the-badge&amp;logo=netbeans&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-49",
+    "name": "Sublime Text Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Sublime%20Text-FF9800?style=for-the-badge&logo=sublimetext&logoColor=white",
+    "html": "<a href=\"https://www.sublimetext.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Sublime Text Badge\" src=\"https://img.shields.io/badge/Sublime%20Text-FF9800?style=for-the-badge&amp;logo=sublimetext&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-50",
+    "name": "Vim Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Vim-019733?style=for-the-badge&logo=vim&logoColor=white",
+    "html": "<a href=\"https://www.vim.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Vim Badge\" src=\"https://img.shields.io/badge/Vim-019733?style=for-the-badge&amp;logo=vim&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-51",
+    "name": "Emacs Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Emacs-553C91?style=for-the-badge&logo=emacs&logoColor=white",
+    "html": "<a href=\"https://www.gnu.org/software/emacs/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Emacs Badge\" src=\"https://img.shields.io/badge/Emacs-553C91?style=for-the-badge&amp;logo=emacs&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-52",
+    "name": "Jupyter Notebook Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white",
+    "html": "<a href=\"https://jupyter.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Jupyter Notebook Badge\" src=\"https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&amp;logo=jupyter&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-53",
+    "name": "Postman Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white",
+    "html": "<a href=\"https://www.postman.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Postman Badge\" src=\"https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&amp;logo=postman&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-54",
+    "name": "GraphQL Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white",
+    "html": "<a href=\"https://graphql.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"GraphQL Badge\" src=\"https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&amp;logo=graphql&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-55",
+    "name": "MQTT Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/MQTT-FF6600?style=for-the-badge&logo=mqtt&logoColor=white",
+    "html": "<a href=\"https://mqtt.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"MQTT Badge\" src=\"https://img.shields.io/badge/MQTT-FF6600?style=for-the-badge&amp;logo=mqtt&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-56",
+    "name": "gRPC Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&logo=grpc&logoColor=white",
+    "html": "<a href=\"https://grpc.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"gRPC Badge\" src=\"https://img.shields.io/badge/gRPC-4285F4?style=for-the-badge&amp;logo=grpc&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-57",
+    "name": "NGINX Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white",
+    "html": "<a href=\"https://www.nginx.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"NGINX Badge\" src=\"https://img.shields.io/badge/NGINX-009639?style=for-the-badge&amp;logo=nginx&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-58",
+    "name": "Apache HTTP Server Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Apache%20HTTP-CA1F26?style=for-the-badge&logo=apache&logoColor=white",
+    "html": "<a href=\"https://httpd.apache.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Apache HTTP Server Badge\" src=\"https://img.shields.io/badge/Apache%20HTTP-CA1F26?style=for-the-badge&amp;logo=apache&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-59",
+    "name": "Apache Kafka Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white",
+    "html": "<a href=\"https://kafka.apache.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Apache Kafka Badge\" src=\"https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&amp;logo=apachekafka&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-60",
+    "name": "RabbitMQ Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white",
+    "html": "<a href=\"https://www.rabbitmq.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"RabbitMQ Badge\" src=\"https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&amp;logo=rabbitmq&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-61",
+    "name": "Node.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white",
+    "html": "<a href=\"https://nodejs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Node.js Badge\" src=\"https://img.shields.io/badge/Node.js-339933?style=for-the-badge&amp;logo=node.js&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-62",
+    "name": "React Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white",
+    "html": "<a href=\"https://reactjs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"React Badge\" src=\"https://img.shields.io/badge/React-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-63",
+    "name": "Vue.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white",
+    "html": "<a href=\"https://vuejs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Vue.js Badge\" src=\"https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&amp;logo=vuedotjs&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-64",
+    "name": "Angular Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white",
+    "html": "<a href=\"https://angular.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Angular Badge\" src=\"https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&amp;logo=angular&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-65",
+    "name": "Next.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white",
+    "html": "<a href=\"https://nextjs.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Next.js Badge\" src=\"https://img.shields.io/badge/Next.js-000000?style=for-the-badge&amp;logo=next.js&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-66",
+    "name": "Nuxt.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&logo=nuxt.js&logoColor=white",
+    "html": "<a href=\"https://nuxt.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Nuxt.js Badge\" src=\"https://img.shields.io/badge/Nuxt.js-00C58E?style=for-the-badge&amp;logo=nuxt.js&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-67",
+    "name": "Svelte Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white",
+    "html": "<a href=\"https://svelte.dev/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Svelte Badge\" src=\"https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&amp;logo=svelte&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-68",
+    "name": "Express.js Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white",
+    "html": "<a href=\"https://expressjs.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Express.js Badge\" src=\"https://img.shields.io/badge/Express.js-000000?style=for-the-badge&amp;logo=express&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-69",
+    "name": "Django Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white",
+    "html": "<a href=\"https://www.djangoproject.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Django Badge\" src=\"https://img.shields.io/badge/Django-092E20?style=for-the-badge&amp;logo=django&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-70",
+    "name": "Flask Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white",
+    "html": "<a href=\"https://flask.palletsprojects.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Flask Badge\" src=\"https://img.shields.io/badge/Flask-000000?style=for-the-badge&amp;logo=flask&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-71",
+    "name": "Spring Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white",
+    "html": "<a href=\"https://spring.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Spring Badge\" src=\"https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&amp;logo=spring&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-72",
+    "name": "Laravel Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white",
+    "html": "<a href=\"https://laravel.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Laravel Badge\" src=\"https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&amp;logo=laravel&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-73",
+    "name": "Ruby on Rails Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=rubyonrails&logoColor=white",
+    "html": "<a href=\"https://rubyonrails.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Ruby on Rails Badge\" src=\"https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&amp;logo=rubyonrails&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-74",
+    "name": "TensorFlow Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white",
+    "html": "<a href=\"https://www.tensorflow.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"TensorFlow Badge\" src=\"https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&amp;logo=tensorflow&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-75",
+    "name": "PyTorch Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white",
+    "html": "<a href=\"https://pytorch.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PyTorch Badge\" src=\"https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&amp;logo=pytorch&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-76",
+    "name": "Ansible Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white",
+    "html": "<a href=\"https://www.ansible.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Ansible Badge\" src=\"https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&amp;logo=ansible&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-77",
+    "name": "Terraform Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white",
+    "html": "<a href=\"https://www.terraform.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Terraform Badge\" src=\"https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&amp;logo=terraform&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-78",
+    "name": "Jenkins Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white",
+    "html": "<a href=\"https://www.jenkins.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Jenkins Badge\" src=\"https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&amp;logo=jenkins&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-79",
+    "name": "CircleCI Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&logo=circleci&logoColor=white",
+    "html": "<a href=\"https://circleci.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"CircleCI Badge\" src=\"https://img.shields.io/badge/CircleCI-343434?style=for-the-badge&amp;logo=circleci&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-80",
+    "name": "Travis CI Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&logo=travis-ci&logoColor=white",
+    "html": "<a href=\"https://travis-ci.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Travis CI Badge\" src=\"https://img.shields.io/badge/Travis_CI-3EAAAF?style=for-the-badge&amp;logo=travis-ci&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-81",
+    "name": "JavaScript Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black",
+    "html": "<a href=\"https://www.javascript.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"JavaScript Badge\" src=\"https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-82",
+    "name": "Python Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white",
+    "html": "<a href=\"https://www.python.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Python Badge\" src=\"https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-83",
+    "name": "TypeScript Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+    "html": "<a href=\"https://www.typescriptlang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"TypeScript Badge\" src=\"https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&amp;logo=typescript&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-84",
+    "name": "Java Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white",
+    "html": "<a href=\"https://www.java.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Java Badge\" src=\"https://img.shields.io/badge/Java-007396?style=for-the-badge&amp;logo=java&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-85",
+    "name": "C# Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white",
+    "html": "<a href=\"https://docs.microsoft.com/dotnet/csharp/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"C# Badge\" src=\"https://img.shields.io/badge/C%23-239120?style=for-the-badge&amp;logo=c-sharp&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-86",
+    "name": "C++ Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white",
+    "html": "<a href=\"https://isocpp.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"C++ Badge\" src=\"https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&amp;logo=c%2B%2B&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-87",
+    "name": "Go Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white",
+    "html": "<a href=\"https://golang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Go Badge\" src=\"https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&amp;logo=go&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-88",
+    "name": "Rust Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white",
+    "html": "<a href=\"https://www.rust-lang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Rust Badge\" src=\"https://img.shields.io/badge/Rust-000000?style=for-the-badge&amp;logo=rust&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-89",
+    "name": "Ruby Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white",
+    "html": "<a href=\"https://www.ruby-lang.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Ruby Badge\" src=\"https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&amp;logo=ruby&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-90",
+    "name": "PHP Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white",
+    "html": "<a href=\"https://www.php.net/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PHP Badge\" src=\"https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-91",
+    "name": "HTML5 Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white",
+    "html": "<a href=\"https://developer.mozilla.org/docs/Web/HTML\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"HTML5 Badge\" src=\"https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-92",
+    "name": "CSS3 Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white",
+    "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"CSS3 Badge\" src=\"https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-93",
+    "name": "Sass Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white",
+    "html": "<a href=\"https://sass-lang.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Sass Badge\" src=\"https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&amp;logo=sass&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-94",
+    "name": "SQL Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white",
+    "html": "<a href=\"https://www.w3.org/standards/techs/sql\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"SQL Badge\" src=\"https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-95",
+    "name": "Markdown Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white",
+    "html": "<a href=\"https://www.markdownguide.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Markdown Badge\" src=\"https://img.shields.io/badge/Markdown-000000?style=for-the-badge&amp;logo=markdown&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-96",
+    "name": "PostgreSQL Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white",
+    "html": "<a href=\"https://www.postgresql.org/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"PostgreSQL Badge\" src=\"https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&amp;logo=postgresql&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-97",
+    "name": "MySQL Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white",
+    "html": "<a href=\"https://www.mysql.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"MySQL Badge\" src=\"https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-98",
+    "name": "MongoDB Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white",
+    "html": "<a href=\"https://www.mongodb.com/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"MongoDB Badge\" src=\"https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&amp;logo=mongodb&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-99",
+    "name": "Redis Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white",
+    "html": "<a href=\"https://redis.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Redis Badge\" src=\"https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&amp;logo=redis&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-100",
+    "name": "Kubernetes Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white",
+    "html": "<a href=\"https://kubernetes.io/\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Kubernetes Badge\" src=\"https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&amp;logo=kubernetes&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-101",
+    "name": "Twitter Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white",
+    "html": "<a href=\"https://twitter.com/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Twitter Badge\" src=\"https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&amp;logo=twitter&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-102",
+    "name": "Facebook Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white",
+    "html": "<a href=\"https://www.facebook.com/your-profile\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Facebook Badge\" src=\"https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&amp;logo=facebook&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-103",
+    "name": "Instagram Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white",
+    "html": "<a href=\"https://www.instagram.com/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Instagram Badge\" src=\"https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-104",
+    "name": "TikTok Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white",
+    "html": "<a href=\"https://www.tiktok.com/@your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"TikTok Badge\" src=\"https://img.shields.io/badge/TikTok-000000?style=for-the-badge&amp;logo=tiktok&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-105",
+    "name": "YouTube Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white",
+    "html": "<a href=\"https://www.youtube.com/c/your-channel\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"YouTube Badge\" src=\"https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&amp;logo=youtube&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-106",
+    "name": "LinkedIn Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white",
+    "html": "<a href=\"https://www.linkedin.com/in/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"LinkedIn Badge\" src=\"https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-107",
+    "name": "Telegram Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&logo=telegram&logoColor=white",
+    "html": "<a href=\"https://t.me/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Telegram Badge\" src=\"https://img.shields.io/badge/Telegram-0088CC?style=for-the-badge&amp;logo=telegram&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-108",
+    "name": "GitLab Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white",
+    "html": "<a href=\"https://gitlab.com/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"GitLab Badge\" src=\"https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&amp;logo=gitlab&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-109",
+    "name": "Bitbucket Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white",
+    "html": "<a href=\"https://bitbucket.org/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Bitbucket Badge\" src=\"https://img.shields.io/badge/Bitbucket-0052CC?style=for-the-badge&amp;logo=bitbucket&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-110",
+    "name": "AWS Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white",
+    "html": "<a href=\"https://aws.amazon.com/your-account\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"AWS Badge\" src=\"https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&amp;logo=amazon-aws&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-111",
+    "name": "Google Cloud Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white",
+    "html": "<a href=\"https://cloud.google.com/your-project\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Google Cloud Badge\" src=\"https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&amp;logo=google-cloud&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-112",
+    "name": "Azure Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white",
+    "html": "<a href=\"https://azure.microsoft.com/en-us/services/your-service\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Azure Badge\" src=\"https://img.shields.io/badge/Microsoft_Azure-0089D6?style=for-the-badge&amp;logo=microsoft-azure&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-113",
+    "name": "Heroku Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white",
+    "html": "<a href=\"https://www.heroku.com/your-app\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Heroku Badge\" src=\"https://img.shields.io/badge/Heroku-430098?style=for-the-badge&amp;logo=heroku&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-114",
+    "name": "DigitalOcean Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white",
+    "html": "<a href=\"https://www.digitalocean.com/your-account\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"DigitalOcean Badge\" src=\"https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&amp;logo=digitalocean&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-115",
+    "name": "HackerEarth Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/HackerEarth-323754?style=for-the-badge&logo=hackerearth&logoColor=white",
+    "html": "<a href=\"https://www.hackerearth.com/@your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"HackerEarth Badge\" src=\"https://img.shields.io/badge/HackerEarth-323754?style=for-the-badge&amp;logo=hackerearth&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-116",
+    "name": "TopCoder Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/TopCoder-2EA5E2?style=for-the-badge&logo=topcoder&logoColor=white",
+    "html": "<a href=\"https://www.topcoder.com/members/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"TopCoder Badge\" src=\"https://img.shields.io/badge/TopCoder-2EA5E2?style=for-the-badge&amp;logo=topcoder&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-117",
+    "name": "CodeChef Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white",
+    "html": "<a href=\"https://www.codechef.com/users/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"CodeChef Badge\" src=\"https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&amp;logo=codechef&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-118",
+    "name": "Codeforces Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white",
+    "html": "<a href=\"https://codeforces.com/profile/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Codeforces Badge\" src=\"https://img.shields.io/badge/Codeforces-1F8ACB?style=for-the-badge&amp;logo=codeforces&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-119",
+    "name": "AtCoder Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/AtCoder-ED1C24?style=for-the-badge&logo=atcoder&logoColor=white",
+    "html": "<a href=\"https://atcoder.jp/users/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"AtCoder Badge\" src=\"https://img.shields.io/badge/AtCoder-ED1C24?style=for-the-badge&amp;logo=atcoder&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-120",
+    "name": "Project Euler Badge",
+    "category": "Badges",
+    "thumbnail": "https://img.shields.io/badge/Project_Euler-6A5ACD?style=for-the-badge&logo=project-euler&logoColor=white",
+    "html": "<a href=\"https://projecteuler.net/profile/your-username\" rel=\"noopener noreferrer\" target=\"_blank\">\n<img alt=\"Project Euler Badge\" src=\"https://img.shields.io/badge/Project_Euler-6A5ACD?style=for-the-badge&amp;logo=project-euler&amp;logoColor=white\"/>\n</a>",
+    "css": "",
+    "js": ""
+  },
+  {
+    "id": "badge-121",
     "name": "HackerRank Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=HackerRank&logoColor=white",
@@ -9,7 +1089,7 @@
     "js": ""
   },
   {
-    "id": "badge-2",
+    "id": "badge-122",
     "name": "LeetCode Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white",
@@ -18,7 +1098,7 @@
     "js": ""
   },
   {
-    "id": "badge-3",
+    "id": "badge-123",
     "name": "Portfolio Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white",
@@ -27,7 +1107,7 @@
     "js": ""
   },
   {
-    "id": "badge-4",
+    "id": "badge-124",
     "name": "GitHub Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white",
@@ -36,7 +1116,7 @@
     "js": ""
   },
   {
-    "id": "badge-5",
+    "id": "badge-125",
     "name": "StackOverflow Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/StackOverflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white",
@@ -45,7 +1125,7 @@
     "js": ""
   },
   {
-    "id": "badge-6",
+    "id": "badge-126",
     "name": "CodePen Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white",
@@ -54,7 +1134,7 @@
     "js": ""
   },
   {
-    "id": "badge-7",
+    "id": "badge-127",
     "name": "Codewars Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white",
@@ -63,7 +1143,7 @@
     "js": ""
   },
   {
-    "id": "badge-8",
+    "id": "badge-128",
     "name": "Replit Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Replit-667881?style=for-the-badge&logo=replit&logoColor=white",
@@ -72,7 +1152,7 @@
     "js": ""
   },
   {
-    "id": "badge-9",
+    "id": "badge-129",
     "name": "Kaggle Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white",
@@ -81,7 +1161,7 @@
     "js": ""
   },
   {
-    "id": "badge-10",
+    "id": "badge-130",
     "name": "Coursera Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Coursera-0056D2?style=for-the-badge&logo=coursera&logoColor=white",
@@ -90,7 +1170,7 @@
     "js": ""
   },
   {
-    "id": "badge-11",
+    "id": "badge-131",
     "name": "Udemy Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white",
@@ -99,7 +1179,7 @@
     "js": ""
   },
   {
-    "id": "badge-12",
+    "id": "badge-132",
     "name": "Behance Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white",
@@ -108,7 +1188,7 @@
     "js": ""
   },
   {
-    "id": "badge-13",
+    "id": "badge-133",
     "name": "Fiverr Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Fiverr-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white",
@@ -117,7 +1197,7 @@
     "js": ""
   },
   {
-    "id": "badge-14",
+    "id": "badge-134",
     "name": "Upwork Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Upwork-6fda44?style=for-the-badge&logo=upwork&logoColor=white",
@@ -126,7 +1206,7 @@
     "js": ""
   },
   {
-    "id": "badge-15",
+    "id": "badge-135",
     "name": "Hashnode Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white",
@@ -135,7 +1215,7 @@
     "js": ""
   },
   {
-    "id": "badge-16",
+    "id": "badge-136",
     "name": "Medium Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white",
@@ -144,7 +1224,7 @@
     "js": ""
   },
   {
-    "id": "badge-17",
+    "id": "badge-137",
     "name": "GDSC Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/GDSC-4285F4?style=for-the-badge&logo=google&logoColor=white",
@@ -153,7 +1233,7 @@
     "js": ""
   },
   {
-    "id": "badge-18",
+    "id": "badge-138",
     "name": "Hugging Face Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black",
@@ -162,7 +1242,7 @@
     "js": ""
   },
   {
-    "id": "badge-19",
+    "id": "badge-139",
     "name": "WandB Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black",
@@ -171,7 +1251,7 @@
     "js": ""
   },
   {
-    "id": "badge-20",
+    "id": "badge-140",
     "name": "Unity Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white",
@@ -180,7 +1260,7 @@
     "js": ""
   },
   {
-    "id": "badge-21",
+    "id": "badge-141",
     "name": "Figma Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white",
@@ -189,7 +1269,7 @@
     "js": ""
   },
   {
-    "id": "badge-22",
+    "id": "badge-142",
     "name": "Discord Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white",
@@ -198,7 +1278,7 @@
     "js": ""
   },
   {
-    "id": "badge-23",
+    "id": "badge-143",
     "name": "Slack Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white",
@@ -207,7 +1287,7 @@
     "js": ""
   },
   {
-    "id": "badge-24",
+    "id": "badge-144",
     "name": "Dribbble Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white",
@@ -216,7 +1296,7 @@
     "js": ""
   },
   {
-    "id": "badge-25",
+    "id": "badge-145",
     "name": "Pinterest Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Pinterest-BD081C?style=for-the-badge&logo=pinterest&logoColor=white",
@@ -225,7 +1305,7 @@
     "js": ""
   },
   {
-    "id": "badge-26",
+    "id": "badge-146",
     "name": "Google Scholar Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Google_Scholar-4285F4?style=for-the-badge&logo=googlescholar&logoColor=white",
@@ -234,7 +1314,7 @@
     "js": ""
   },
   {
-    "id": "badge-27",
+    "id": "badge-147",
     "name": "ResearchGate Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/ResearchGate-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white",
@@ -243,7 +1323,7 @@
     "js": ""
   },
   {
-    "id": "badge-28",
+    "id": "badge-148",
     "name": "AngelList Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Wellfound-000000?style=for-the-badge&logo=angellist&logoColor=white",
@@ -252,7 +1332,7 @@
     "js": ""
   },
   {
-    "id": "badge-29",
+    "id": "badge-149",
     "name": "LinkedIn Learning Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/LinkedIn%20Learning-0077B5?style=for-the-badge&logo=linkedin&logoColor=white",
@@ -261,7 +1341,7 @@
     "js": ""
   },
   {
-    "id": "badge-30",
+    "id": "badge-150",
     "name": "Docker Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white",
@@ -270,7 +1350,7 @@
     "js": ""
   },
   {
-    "id": "badge-31",
+    "id": "badge-151",
     "name": "Notion Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white",
@@ -279,7 +1359,7 @@
     "js": ""
   },
   {
-    "id": "badge-32",
+    "id": "badge-152",
     "name": "Obsidian Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white",
@@ -288,7 +1368,7 @@
     "js": ""
   },
   {
-    "id": "badge-33",
+    "id": "badge-153",
     "name": "GitHub Actions Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white",
@@ -297,7 +1377,7 @@
     "js": ""
   },
   {
-    "id": "badge-34",
+    "id": "badge-154",
     "name": "Netlify Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white",
@@ -306,7 +1386,7 @@
     "js": ""
   },
   {
-    "id": "badge-35",
+    "id": "badge-155",
     "name": "Vercel Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white",
@@ -315,7 +1395,7 @@
     "js": ""
   },
   {
-    "id": "badge-36",
+    "id": "badge-156",
     "name": "Zapier Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Zapier-FF4A00?style=for-the-badge&logo=zapier&logoColor=white",
@@ -324,7 +1404,7 @@
     "js": ""
   },
   {
-    "id": "badge-37",
+    "id": "badge-157",
     "name": "IFTTT Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/IFTTT-000000?style=for-the-badge&logo=ifttt&logoColor=white",
@@ -333,7 +1413,7 @@
     "js": ""
   },
   {
-    "id": "badge-38",
+    "id": "badge-158",
     "name": "Spotify Podcast Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Spotify_Podcast-1DB954?style=for-the-badge&logo=spotify&logoColor=white",
@@ -342,7 +1422,7 @@
     "js": ""
   },
   {
-    "id": "badge-39",
+    "id": "badge-159",
     "name": "Anchor Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Anchor-5000b9?style=for-the-badge&logo=anchor&logoColor=white",
@@ -351,7 +1431,7 @@
     "js": ""
   },
   {
-    "id": "badge-40",
+    "id": "badge-160",
     "name": "OpenAI Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white",
@@ -360,7 +1440,7 @@
     "js": ""
   },
   {
-    "id": "badge-41",
+    "id": "badge-161",
     "name": "RunwayML Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/RunwayML-FF0070?style=for-the-badge&logo=runway&logoColor=white",
@@ -369,7 +1449,7 @@
     "js": ""
   },
   {
-    "id": "badge-42",
+    "id": "badge-162",
     "name": "Gitcoin Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Gitcoin-3466E8?style=for-the-badge&logo=gitcoin&logoColor=white",
@@ -378,7 +1458,7 @@
     "js": ""
   },
   {
-    "id": "badge-43",
+    "id": "badge-163",
     "name": "DappRadar Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/DappRadar-0D61FE?style=for-the-badge&logo=dappradar&logoColor=white",
@@ -387,7 +1467,7 @@
     "js": ""
   },
   {
-    "id": "badge-44",
+    "id": "badge-164",
     "name": "W3Schools Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/W3Schools-04AA6D?style=for-the-badge&logo=w3schools&logoColor=white",
@@ -396,7 +1476,7 @@
     "js": ""
   },
   {
-    "id": "badge-45",
+    "id": "badge-165",
     "name": "freeCodeCamp Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/freeCodeCamp-0A0A23?style=for-the-badge&logo=freecodecamp&logoColor=white",
@@ -405,7 +1485,7 @@
     "js": ""
   },
   {
-    "id": "badge-46",
+    "id": "badge-166",
     "name": "GeeksforGeeks Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white",
@@ -414,7 +1494,7 @@
     "js": ""
   },
   {
-    "id": "badge-47",
+    "id": "badge-167",
     "name": "Android Studio Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white",
@@ -423,7 +1503,7 @@
     "js": ""
   },
   {
-    "id": "badge-48",
+    "id": "badge-168",
     "name": "Expo Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white",
@@ -432,7 +1512,7 @@
     "js": ""
   },
   {
-    "id": "badge-49",
+    "id": "badge-169",
     "name": "Flutter Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white",
@@ -441,7 +1521,7 @@
     "js": ""
   },
   {
-    "id": "badge-50",
+    "id": "badge-170",
     "name": "Linux Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black",
@@ -450,7 +1530,7 @@
     "js": ""
   },
   {
-    "id": "badge-51",
+    "id": "badge-171",
     "name": "Ubuntu Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white",
@@ -459,7 +1539,7 @@
     "js": ""
   },
   {
-    "id": "badge-52",
+    "id": "badge-172",
     "name": "Windows Terminal Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Windows_Terminal-4D4D4D?style=for-the-badge&logo=windows&logoColor=white",
@@ -468,7 +1548,7 @@
     "js": ""
   },
   {
-    "id": "badge-53",
+    "id": "badge-173",
     "name": "Trello Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white",
@@ -477,7 +1557,7 @@
     "js": ""
   },
   {
-    "id": "badge-54",
+    "id": "badge-174",
     "name": "Notion Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white",
@@ -486,7 +1566,7 @@
     "js": ""
   },
   {
-    "id": "badge-55",
+    "id": "badge-175",
     "name": "ClickUp Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/ClickUp-7B68EE?style=for-the-badge&logo=clickup&logoColor=white",
@@ -495,7 +1575,7 @@
     "js": ""
   },
   {
-    "id": "badge-56",
+    "id": "badge-176",
     "name": "KoboldAI Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/KoboldAI-2A2A2A?style=for-the-badge&logo=openai&logoColor=white",
@@ -504,7 +1584,7 @@
     "js": ""
   },
   {
-    "id": "badge-57",
+    "id": "badge-177",
     "name": "Claude AI Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Claude.ai-101010?style=for-the-badge&logo=openai&logoColor=white",
@@ -513,7 +1593,7 @@
     "js": ""
   },
   {
-    "id": "badge-58",
+    "id": "badge-178",
     "name": "Perplexity Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Perplexity-2E2E2E?style=for-the-badge&logo=perplexity&logoColor=white",
@@ -522,7 +1602,7 @@
     "js": ""
   },
   {
-    "id": "badge-59",
+    "id": "badge-179",
     "name": "Reddit Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white",
@@ -531,7 +1611,7 @@
     "js": ""
   },
   {
-    "id": "badge-60",
+    "id": "badge-180",
     "name": "StackExchange Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/StackExchange-1E5397?style=for-the-badge&logo=stackexchange&logoColor=white",
@@ -540,7 +1620,7 @@
     "js": ""
   },
   {
-    "id": "badge-61",
+    "id": "badge-181",
     "name": "Product Hunt Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Product_Hunt-DA552F?style=for-the-badge&logo=producthunt&logoColor=white",
@@ -549,7 +1629,7 @@
     "js": ""
   },
   {
-    "id": "badge-62",
+    "id": "badge-182",
     "name": "Twitch Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white",
@@ -558,7 +1638,7 @@
     "js": ""
   },
   {
-    "id": "badge-63",
+    "id": "badge-183",
     "name": "OBS Studio Badge",
     "category": "Badges",
     "thumbnail": "https://img.shields.io/badge/OBS_Studio-302E31?style=for-the-badge&logo=obsstudio&logoColor=white",
