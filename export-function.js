@@ -1,6 +1,164 @@
 // Lưu ý: sử dụng nó ở trang about:blank và tiến vô F12 [console]
 // 1. Dán toàn bộ blob HTML của bạn vào rawHtml:
-const rawHtml = `<a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
+const rawHtml = `
+<a href="https://codecov.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Codecov-000000?style=for-the-badge&logo=codecov&logoColor=white"
+        alt="Codecov Badge">
+</a>
+<a href="https://coveralls.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Coveralls-384f70?style=for-the-badge&logo=coveralls&logoColor=white"
+        alt="Coveralls Badge">
+</a>
+<a href="https://www.sonarqube.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white"
+        alt="SonarQube Badge">
+</a>
+<a href="https://semaphoreci.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/SemaphoreCI-232F3E?style=for-the-badge&logo=semaphoreci&logoColor=white"
+        alt="SemaphoreCI Badge">
+</a>
+<a href="https://buildkite.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Buildkite-FF5F00?style=for-the-badge&logo=buildkite&logoColor=white"
+        alt="Buildkite Badge">
+</a>
+<a href="https://codeship.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Codeship-2C9AB7?style=for-the-badge&logo=codeship&logoColor=white"
+        alt="Codeship Badge">
+</a>
+<a href="https://www.shippable.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Shippable-2CA9E1?style=for-the-badge&logo=shippable&logoColor=white"
+        alt="Shippable Badge">
+</a>
+<a href="https://www.spinnaker.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Spinnaker-22193E?style=for-the-badge&logo=spinnaker&logoColor=white"
+        alt="Spinnaker Badge">
+</a>
+<a href="https://www.portainer.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Portainer-2AAEEC?style=for-the-badge&logo=portainer&logoColor=white"
+        alt="Portainer Badge">
+</a>
+<a href="https://www.zabbix.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Zabbix-006ABC?style=for-the-badge&logo=zabbix&logoColor=white"
+        alt="Zabbix Badge">
+</a>
+<a href="https://www.nagios.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Nagios-3D873E?style=for-the-badge&logo=nagios&logoColor=white"
+        alt="Nagios Badge">
+</a>
+<a href="https://icinga.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Icinga-25A4C3?style=for-the-badge&logo=icinga&logoColor=white"
+        alt="Icinga Badge">
+</a>
+<a href="https://saltproject.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/SaltStack-0E385F?style=for-the-badge&logo=saltstack&logoColor=white"
+        alt="SaltStack Badge">
+</a>
+<a href="https://www.pulumi.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Pulumi-6C18E2?style=for-the-badge&logo=pulumi&logoColor=white"
+        alt="Pulumi Badge">
+</a>
+<a href="https://www.ibm.com/cloud" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/IBM_Cloud-052FAD?style=for-the-badge&logo=ibm&logoColor=white"
+        alt="IBM Cloud Badge">
+</a>
+<a href="https://www.oracle.com/cloud/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Oracle_Cloud-000000?style=for-the-badge&logo=oracle&logoColor=white"
+        alt="Oracle Cloud Badge">
+</a>
+<a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white"
+        alt="Salesforce Badge">
+</a>
+<a href="https://www.archlinux.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Arch_Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white"
+        alt="Arch Linux Badge">
+</a>
+<a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white"
+        alt="Debian Badge">
+</a>
+<a href="https://www.centos.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/CentOS-262577?style=for-the-badge&logo=centos&logoColor=white"
+        alt="CentOS Badge">
+</a>
+<a href="https://getfedora.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white"
+        alt="Fedora Badge">
+</a>
+<a href="https://alpinelinux.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Alpine_Linux-0FB9B1?style=for-the-badge&logo=alpine-linux&logoColor=white"
+        alt="Alpine Linux Badge">
+</a>
+<a href="https://www.freebsd.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/FreeBSD-A81D33?style=for-the-badge&logo=freebsd&logoColor=white"
+        alt="FreeBSD Badge">
+</a>
+<a href="https://www.nano-editor.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Nano-40D47E?style=for-the-badge" alt="Nano Badge">
+</a>
+<a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Notepad%2B%2B-5A5A5A?style=for-the-badge&logo=notepad++&logoColor=white"
+        alt="Notepad++ Badge">
+</a>
+<a href="https://vscodium.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/VSCodium-006B75?style=for-the-badge&logo=vscodium&logoColor=white"
+        alt="VSCodium Badge">
+</a>
+<a href="https://glitch.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Glitch-2DEE54?style=for-the-badge&logo=glitch&logoColor=white"
+        alt="Glitch Badge">
+</a>
+<a href="https://jsfiddle.net/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/JSFiddle-467B96?style=for-the-badge&logo=jsfiddle&logoColor=white"
+        alt="JSFiddle Badge">
+</a>
+<a href="https://codesandbox.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/CodeSandbox-000000?style=for-the-badge&logo=codesandbox&logoColor=white"
+        alt="CodeSandbox Badge">
+</a>
+<a href="https://cordova.apache.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/PhoneGap-DD4814?style=for-the-badge&logo=phonegap&logoColor=white"
+        alt="PhoneGap Badge">
+</a>
+<a href="https://www.arduino.cc/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"
+        alt="Arduino Badge">
+</a>
+<a href="https://www.raspberrypi.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberrypi&logoColor=white"
+        alt="Raspberry Pi Badge">
+</a>
+<a href="https://www.snowflake.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Snowflake-28B5E9?style=for-the-badge&logo=snowflake&logoColor=white"
+        alt="Snowflake Badge">
+</a>
+<a href="https://aws.amazon.com/redshift/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Amazon_Redshift-527FFF?style=for-the-badge&logo=amazonredshift&logoColor=white"
+        alt="Amazon Redshift Badge">
+</a>
+<a href="https://cloud.google.com/bigquery" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white"
+        alt="BigQuery Badge">
+</a>
+<a href="https://nats.io/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/NATS-464646?style=for-the-badge&logo=nats&logoColor=white" alt="NATS Badge">
+</a>
+<a href="https://activemq.apache.org/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Apache_ActiveMQ-005CA0?style=for-the-badge&logo=apacheactivemq&logoColor=white"
+        alt="Apache ActiveMQ Badge">
+</a>
+<a href="https://aws.amazon.com/sns/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Amazon_SNS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+        alt="Amazon SNS Badge">
+</a>
+<a href="https://aws.amazon.com/sqs/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Amazon_SQS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"
+        alt="Amazon SQS Badge">
+</a>
+<a href="https://www.zendesk.com/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Zendesk-009639?style=for-the-badge&logo=zendesk&logoColor=white"
+        alt="Zendesk Badge">
+</a><a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Badge">
 </a>
 <a href="https://subversion.apache.org/" target="_blank" rel="noopener noreferrer">
