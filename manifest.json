@@ -1,7 +1,7 @@
 {
-    "name": "dangkh0a Gallery",
-    "short_name": "Gallery",
-    "start_url": "/gallery",
+    "name": "dangkh0a Badges Gallery",
+    "short_name": "Badges",
+    "start_url": "/badges",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
