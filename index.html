@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
-  <link rel="manifest" href="manifest.json">
-  <link rel="icon" href="logo.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="logo.png" sizes="16x16" type="image/png">
-  <link rel="apple-touch-icon" href="logo.png" sizes="180x180">
+  <link rel="manifest" href="./function/manifest.json">
+  <link rel="icon" href="./icons/logo.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./icons/logo.png" sizes="16x16" type="image/png">
+  <link rel="apple-touch-icon" href="./icons/logo.png" sizes="180x180">
   <meta name="theme-color" content="#ffffff">
   <meta property="og:title" content="dangkh0a - Gallery">
   <meta property="og:description" content="Bộ sưu tập hình ảnh ấn tượng, trình diễn với giao diện tối/sáng.">
@@ -91,7 +91,7 @@
 
   <script>
     async function fetchComponents() {
-      const res = await fetch("components.json");
+      const res = await fetch("./function/components.json");
       return res.json();
     }
 
