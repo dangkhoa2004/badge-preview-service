@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <title>dangkh0a - Badges Gallery</title>
@@ -25,7 +24,6 @@
   <meta name="twitter:image" content="https://yourdomain.com/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
-
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
   <div class="flex h-screen">
     <aside id="sidebar"
@@ -118,11 +116,9 @@
       const res = await fetch("./function/components.json");
       return res.json();
     }
-
     let components = [];
     let currentComponent = null;
     let currentOriginal = {};
-
     const listEl = document.getElementById("component-list");
     const previewEl = document.getElementById("preview");
     const htmlCodeEl = document.getElementById("html-code");
@@ -139,7 +135,6 @@
     const openSidebarBtn = document.getElementById("openSidebarBtn");
     const overlay = document.getElementById("overlay");
     const searchInput = document.getElementById("search");
-
     function createComponentListItem(comp) {
       const li = document.createElement("li");
       li.className =
@@ -154,7 +149,6 @@
       li.onclick = () => renderComponent(comp);
       return li;
     }
-
     function renderComponent(comp) {
       currentComponent = comp.id;
       currentOriginal = {
@@ -162,7 +156,6 @@
         css: comp.css || "",
         js: comp.js || "",
       };
-
       titleEl.innerHTML = `<i class='fas fa-puzzle-piece text-green-500'></i> ${comp.name}`;
       htmlCodeEl.value = comp.html;
       cssCodeEl.value = comp.css || "";
@@ -174,14 +167,12 @@
       updatePreview();
       codeSectionEl.classList.add("hidden");
     }
-
     function updatePreview() {
       const html = htmlCodeEl.value;
       const css = cssCodeEl.value;
       const js = jsCodeEl.value;
       previewEl.innerHTML = `<style>${css}</style>${html}<script>${js}<\/script>`;
     }
-
     function resetEdits() {
       if (!currentComponent) return;
       htmlCodeEl.value = currentOriginal.html;
@@ -189,7 +180,6 @@
       jsCodeEl.value = currentOriginal.js;
       updatePreview();
     }
-
     function renderList(filter = "") {
       listEl.innerHTML = "";
       const grouped = groupByCategory(
@@ -197,7 +187,6 @@
           c.name.toLowerCase().includes(filter.toLowerCase())
         )
       );
-
       Object.entries(grouped).forEach(([cat, items]) => {
         const catTitle = document.createElement("div");
         catTitle.className = "text-xs text-gray-500 uppercase mt-4 px-4";
@@ -209,7 +198,6 @@
         );
       });
     }
-
     function groupByCategory(list) {
       return list.reduce((acc, item) => {
         const cat = item.category || "Uncategorized";
@@ -218,59 +206,42 @@
         return acc;
       }, {});
     }
-
     fetchComponents().then((data) => {
       components = data;
       renderList();
     });
-
-    // Theme toggle
     toggleBtn.addEventListener("click", () => {
       document.documentElement.classList.toggle("dark");
       sunIcon.classList.toggle("hidden");
       moonIcon.classList.toggle("hidden");
     });
-
-    // Live update preview
     htmlCodeEl.addEventListener("input", updatePreview);
     cssCodeEl.addEventListener("input", updatePreview);
     jsCodeEl.addEventListener("input", updatePreview);
-
-    // Show code block
     previewEl.addEventListener("click", () => {
       codeSectionEl.classList.remove("hidden");
     });
-
-    // Search
     searchInput.addEventListener("input", (e) => {
       renderList(e.target.value);
     });
-
-    // Sidebar toggle
     openSidebarBtn.addEventListener("click", () => {
       sidebar.classList.remove("-translate-x-full");
       overlay.classList.remove("hidden");
     });
-
     overlay.addEventListener("click", () => {
       sidebar.classList.add("-translate-x-full");
       overlay.classList.add("hidden");
     });
-
-    // Optional: ESC to close sidebar
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") {
         sidebar.classList.add("-translate-x-full");
         overlay.classList.add("hidden");
       }
     });
-
-    // Reset button (if it exists in HTML)
     const resetBtn = document.querySelector("button[onclick='resetEdits()']");
     if (resetBtn) {
       resetBtn.addEventListener("click", resetEdits);
     }
-    // Copy all code to clipboard
     const copyCodeBtn = document.getElementById("copyCodeBtn");
     if (copyCodeBtn) {
       copyCodeBtn.addEventListener("click", () => {
@@ -284,6 +255,4 @@
     }
   });
 </script>
-
-
 </html>
