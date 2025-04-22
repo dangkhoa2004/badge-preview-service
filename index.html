@@ -242,15 +242,19 @@
     if (resetBtn) {
       resetBtn.addEventListener("click", resetEdits);
     }
-    const copyCodeBtn = document.getElementById("copyCodeBtn");
     if (copyCodeBtn) {
       copyCodeBtn.addEventListener("click", () => {
         const html = htmlCodeEl.value.trim();
         const css = cssCodeEl.value.trim();
         const js = jsCodeEl.value.trim();
+
         let fullCode = html;
         if (css) fullCode = `<style>\n${css}\n</style>\n` + fullCode;
-        if (js) fullCode += `\n<script>\n${js}\n<\/script>`;
+        if (js) fullCode += `\n<script>\n${js}\n<\\/script>`;
+
+        navigator.clipboard.writeText(fullCode)
+          .then(() => alert("Đã sao chép mã vào clipboard!"))
+          .catch(err => alert("Lỗi sao chép: " + err));
       });
     }
   });
