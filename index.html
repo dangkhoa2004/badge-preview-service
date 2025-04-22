@@ -28,7 +28,8 @@
 
 <body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200">
   <div class="flex h-screen">
-    <aside class="w-72 bg-white dark:bg-gray-800 border-r dark:border-gray-700 overflow-y-auto">
+    <aside id="sidebar"
+      class="fixed top-0 left-0 w-72 h-full z-40 transform -translate-x-full sm:translate-x-0 sm:static sm:h-auto sm:w-72 bg-white dark:bg-gray-800 border-r dark:border-gray-700 transition-transform duration-300 overflow-y-auto">
       <div>
         <a href="https://github.com/dangkhoa2004/badge-preview-service" class="inline-flex items-center justify-center p-5 text-base font-medium rounded-lg bg-gray-50
                   hover:text-gray-900 hover:bg-gray-100 dark:text-white dark:bg-gray-800
@@ -52,7 +53,7 @@
           <i class="fas fa-moon icon-moon"></i>
         </button>
       </div>
-      <div class="p-2">
+      <div class="sticky top-[58px] bg-white dark:bg-gray-800 p-2 z-10 border-b dark:border-gray-700">
         <div class="relative">
           <i
             class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 dark:text-gray-500"></i>
@@ -62,15 +63,19 @@
       </div>
       <ul id="component-list" class="p-2 space-y-2"></ul>
     </aside>
-    <main class="flex-1 p-6 overflow-y-auto">
-      <h1 id="component-title" class="text-2xl font-bold mb-4 flex items-center gap-2">
-        <i class="fas fa-puzzle-piece text-green-500"></i>
-        Select a badge
-      </h1>
+    <main class="flex-1 p-3 sm:p-6 overflow-y-auto">
+      <div class="flex items-center justify-between mb-4">
+        <h1 id="component-title" class="text-2xl font-bold flex items-center gap-2">
+          <i class="fas fa-puzzle-piece text-green-500"></i>
+          Select a badge
+        </h1>
+        <button id="openSidebarBtn" class="text-xl p-2 rounded hover:bg-gray-200 dark:hover:bg-gray-700">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
       <div id="preview"
         class="p-6 bg-white dark:bg-gray-800 border dark:border-gray-700 rounded-2xl shadow-lg mb-4 relative group transition-transform hover:scale-[1.02] cursor-pointer">
         <div class="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-          <i class="fas fa-code text-xl text-gray-400"></i>
         </div>
       </div>
       <div id="code-section" class="space-y-6 hidden">
@@ -79,30 +84,36 @@
             <i class="fab fa-html5 text-orange-500"></i> HTML
           </h3>
           <textarea id="html-code"
-            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+            class="w-full min-h-[250px] max-h-[1000px] resize-none p-4 bg-gray-900 text-green-200 rounded-xl font-mono border border-gray-700"></textarea>
         </div>
         <div id="css-block" class="hidden">
           <h3 class="font-semibold flex items-center gap-2">
             <i class="fab fa-css3-alt text-blue-500"></i> CSS
           </h3>
           <textarea id="css-code"
-            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+            class="w-full min-h-[250px] max-h-[1000px] resize-none p-4 bg-gray-900 text-green-200 rounded-xl font-mono border border-gray-700"></textarea>
         </div>
         <div id="js-block" class="hidden">
           <h3 class="font-semibold flex items-center gap-2">
             <i class="fab fa-js text-yellow-400"></i> JavaScript
           </h3>
           <textarea id="js-code"
-            class="w-full p-4 bg-gray-900 text-green-200 rounded-xl font-mono h-40 border border-gray-700"></textarea>
+            class="w-full min-h-[250px] max-h-[1000px] resize-none p-4 bg-gray-900 text-green-200 rounded-xl font-mono border border-gray-700"></textarea>
         </div>
+        <button id="copyCodeBtn" class="px-4 py-2 bg-green-600 text-white rounded-xl hover:bg-green-700 transition">
+          <i class="fas fa-copy mr-2"></i> Copy
+        </button>
         <button onclick="resetEdits()" class="px-4 py-2 bg-red-600 text-white rounded-xl hover:bg-red-700 transition">
           <i class="fas fa-undo-alt mr-2"></i> Reset to Default
         </button>
       </div>
     </main>
   </div>
-
-  <script>
+  <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden sm:hidden"></div>
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    window.resetEdits = resetEdits;
     async function fetchComponents() {
       const res = await fetch("./function/components.json");
       return res.json();
@@ -124,17 +135,22 @@
     const toggleBtn = document.getElementById("toggleTheme");
     const sunIcon = toggleBtn.querySelector(".icon-sun");
     const moonIcon = toggleBtn.querySelector(".icon-moon");
+    const sidebar = document.getElementById("sidebar");
+    const openSidebarBtn = document.getElementById("openSidebarBtn");
+    const overlay = document.getElementById("overlay");
+    const searchInput = document.getElementById("search");
 
     function createComponentListItem(comp) {
       const li = document.createElement("li");
       li.className =
         "flex items-center gap-3 cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 px-4 py-2 rounded-xl transition-transform hover:translate-x-1";
       li.innerHTML = `
-          <img src="${comp.thumbnail || "https://via.placeholder.com/120x40?text=No+Image"
-        }" alt="${comp.name}" class="w-20 h-auto object-contain rounded" />
-          <span class="text-sm font-medium truncate flex-1">${comp.name}</span>
-          <i class="fas fa-chevron-right text-gray-400"></i>
-        `;
+        <img src="${comp.thumbnail || "https://via.placeholder.com/120x40?text=No+Image"}"
+             alt="${comp.name}"
+             class="w-20 h-auto object-contain rounded" />
+        <span class="text-sm font-medium truncate flex-1">${comp.name}</span>
+        <i class="fas fa-chevron-right text-gray-400"></i>
+      `;
       li.onclick = () => renderComponent(comp);
       return li;
     }
@@ -203,28 +219,71 @@
       }, {});
     }
 
-    document.getElementById("search").addEventListener("input", (e) => {
-      renderList(e.target.value);
+    fetchComponents().then((data) => {
+      components = data;
+      renderList();
     });
 
+    // Theme toggle
     toggleBtn.addEventListener("click", () => {
       document.documentElement.classList.toggle("dark");
       sunIcon.classList.toggle("hidden");
       moonIcon.classList.toggle("hidden");
     });
 
+    // Live update preview
     htmlCodeEl.addEventListener("input", updatePreview);
     cssCodeEl.addEventListener("input", updatePreview);
     jsCodeEl.addEventListener("input", updatePreview);
+
+    // Show code block
     previewEl.addEventListener("click", () => {
       codeSectionEl.classList.remove("hidden");
     });
 
-    fetchComponents().then((data) => {
-      components = data;
-      renderList();
+    // Search
+    searchInput.addEventListener("input", (e) => {
+      renderList(e.target.value);
     });
-  </script>
-</body>
+
+    // Sidebar toggle
+    openSidebarBtn.addEventListener("click", () => {
+      sidebar.classList.remove("-translate-x-full");
+      overlay.classList.remove("hidden");
+    });
+
+    overlay.addEventListener("click", () => {
+      sidebar.classList.add("-translate-x-full");
+      overlay.classList.add("hidden");
+    });
+
+    // Optional: ESC to close sidebar
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        sidebar.classList.add("-translate-x-full");
+        overlay.classList.add("hidden");
+      }
+    });
+
+    // Reset button (if it exists in HTML)
+    const resetBtn = document.querySelector("button[onclick='resetEdits()']");
+    if (resetBtn) {
+      resetBtn.addEventListener("click", resetEdits);
+    }
+    // Copy all code to clipboard
+    const copyCodeBtn = document.getElementById("copyCodeBtn");
+    if (copyCodeBtn) {
+      copyCodeBtn.addEventListener("click", () => {
+        const html = htmlCodeEl.value.trim();
+        const css = cssCodeEl.value.trim();
+        const js = jsCodeEl.value.trim();
+        let fullCode = html;
+        if (css) fullCode = `<style>\n${css}\n</style>\n` + fullCode;
+        if (js) fullCode += `\n<script>\n${js}\n<\/script>`;
+      });
+    }
+  });
+</script>
+
 
 </html>
